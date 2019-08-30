@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'ProximaNovaRegular';
+    src: url('../fonts/ProximaNova-Regular.eot');
+    src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Regular.woff') format('woff'),
+        url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaNovaBold';
+    src: url('../fonts/ProximaNova-Bold.eot');
+    src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-Bold.woff') format('woff'),
+    url('../fonts/ProximaNova-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'ProximaNovaBlack';
+    src: url('../fonts/ProximaNova-Black.eot');
+    src: url('../fonts/ProximaNova-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Black.woff') format('woff'),
+        url('../fonts/ProximaNova-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'ProximaNovaRegular';
+    margin: 0;
+}
+
+button {
+    outline: none;
+}
+
+.container {
+    max-width: 1170px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* Section Header */
+header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #191919;
+    color: #fff;
+}
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-wrap__logo, .header-wrap__opening, .header-wrap__info {
+    width: 370px;
+}
+.header-wrap__opening {
+    width: 150px;
+}
+.header-wrap__opening p {
+    font-size: 13px;
+    line-height: 23px;
+    font-family: 'ProximaNovaBold';
+    text-align: center;
+}
+.header-wrap__opening p span {
+    font-family: 'ProximaNovaRegular';
+    font-size: 12px;
+}
+.header-wrap__info {
+    text-align: right;
+}
+.header-wrap__info button {
+    width: 170px;
+    cursor: pointer;
+    border: none;
+    background-color: #1669b3;
+    color: #fff;
+    font-family: 'ProximaNovaBold';
+    text-transform: uppercase;
+    text-align: center;
+    transition: all .1s;
+    vertical-align: top;
+    height: 50px;
+}
+.header-wrap__info button:hover {
+    background: none;
+    border: 2px solid #1669b3;
+}
+.header-wrap__info p {
+    display: inline-block;
+    text-align: right;
+    font-family: 'ProximaNovaBlack';
+    padding-top: 6px;
+    position: relative;
+    right: 28px;
+}
+.flex {
+    text-align: center;
+}
