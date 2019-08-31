@@ -398,6 +398,8 @@ header {
 #detail h2,
 .title-description p {
     color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #detail .title-description {
@@ -488,6 +490,7 @@ header {
 .guarantees-card__desctiption {
     margin-top: 35px;
     font-family: 'ProximaNovaRegular';
+    height: 60px;
 }
 
 .guarantees-card__link {
