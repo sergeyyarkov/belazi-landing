@@ -78,7 +78,35 @@ input {
     font-family: 'ProximaNovaRegular';
     text-transform: uppercase;
 }
+/* Fade Animation */
+.fade {
+    -webkit-animation-name: fade;
+    animation-name: fade;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 0.5s;
+}
 
+@-webkit-keyframes fade {
+    from {
+        opacity: 0.1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
 .container {
     max-width: 1170px;
 }
@@ -579,7 +607,30 @@ header {
     height: 20px;
     position: absolute;
 }
-
+.question-content {
+    background-color: #fff;
+    color: #000;
+    font-family: 'ProximaNovaRegular';
+    padding: 15px 15px 20px 15px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
+    width: 330px;
+    font-size: 14px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 35px;
+    display: none;
+}
+.question-content::before {
+    border: 20px solid transparent;
+    border-bottom: 20px solid #fff;
+    content: '';
+    position: absolute;
+    top: -40px; 
+}
+.tooltip-close {
+    float: right;
+    cursor: pointer;
+}
 /* Section Working */
 #working {
     padding-top: 100px;
@@ -781,18 +832,3 @@ footer {
     font-family: 'ProximaNovaBlack';
     font-size: 21px;
 }
-/* #info,
-#price,
-#advantages,
-#detail,
-#guarantees,
-#discount,
-#working,
-#stock,
-#team,
-#advice,
-#come,
-#map,
-footer {
-    display: none;
-} */

@@ -23,4 +23,18 @@ $('.owl-carousel').owlCarousel({
             nav: true
         }
     }
-})
+});
+// Questions Tooltip
+const links = document.querySelectorAll('.wrap-questions__item a');
+links.forEach((link) => {
+    link.addEventListener('click', () => {
+        const contentTollTip = link.parentNode.parentNode.querySelector('.question-content');
+        const contentTollTipClose = link.parentNode.parentNode.querySelector('.tooltip-close');
+        contentTollTipClose.addEventListener('click', () => {
+            contentTollTip.style.display = 'none';
+            contentTollTip.classList.remove('fade');
+        });
+        contentTollTip.classList.add('fade');
+        contentTollTip.style.display = 'block';
+    });
+});
