@@ -23,3 +23,31 @@
         text-align: center;
     }
 }
+@media (max-width: 576px) {
+    #info .info-wrap__card {
+        padding-left: 50px;
+    }
+    #info .info-card__title h1 {
+        font-size: 32px;
+    }
+    #info .info-card__description p {
+        font-size: 18px;
+    }
+    #info .info-advantages__item p {
+        font-size: 16px;
+    }
+    .no-gutter > [class*='col-'] {
+        padding-right:0;
+        padding-left:0;
+    }
+}
+@media (max-width: 400px) {
+    #info .info-wrap__card {
+        padding-left: 25px;
+    }
+}
+@media (max-width: 360px) {
+    #info .info-card__title h1 {
+        font-size: 29px;
+    }
+}

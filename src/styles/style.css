@@ -26,6 +26,15 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'ProximaNovaExtraBold';
+    src: url('../fonts/ProximaNova-Extrabld.eot');
+    src: url('../fonts/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-Extrabld.woff') format('woff'),
+    url('../fonts/ProximaNova-Extrabld.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
 
 h1,
 h2,
@@ -49,8 +58,6 @@ button {
 
 .container {
     max-width: 1170px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 /* Section Header */
 header {
@@ -108,6 +115,82 @@ header {
     position: relative;
     right: 28px;
 }
-.flex {
-    text-align: center;
+/* Section Maon-info */
+#info {
+    min-height: 860px;
+    background: url(../img/main-info/main-info__background.jpg) no-repeat center center;
+    background-size: cover;
+}
+.info-wrap__card {
+    background-color: #f7b516;
+    color: #000000;
+    height: 860px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.info-card__title h1 {
+    text-transform: uppercase;
+    font-family: 'ProximaNovaBlack';
+    font-size: 38px;
+}
+.info-card__description p {
+    font-family: 'ProximaNovaExtraBold';
+    margin-top: 47px;
+    font-size: 24px;
+}
+.info-card__advantages {
+    margin-top: 100px;
+    font-family: 'ProximaNovaRegular';
+}
+.info-advantages__item {
+    margin-top: 45px;
+}
+.info-advantages__item p {
+    padding-left: 15px;
+    display: inline-block;
+    font-size: 18px;
+}
+.info-advantages__item:nth-child(1)::before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 4px;
+    background: url(../img/main-info/icon-1.png) no-repeat center center;
+}
+.info-advantages__item:nth-child(2)::before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 4px;
+    background: url(../img/main-info/icon-2.png) no-repeat center center;
+}
+.info-advantages__item:nth-child(3)::before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 4px;
+    background: url(../img/main-info/icon-3.png) no-repeat center center;
+}
+.info-advantages__item:nth-child(4)::before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 4px;
+    background: url(../img/main-info/icon-4.png) no-repeat center center;
+}
+/* Section Main-price */
+#price {
+    min-height: 500px;
+    background: url(../img/main-price/main-price__background.png) no-repeat center center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
