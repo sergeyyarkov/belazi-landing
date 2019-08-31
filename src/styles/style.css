@@ -46,7 +46,11 @@ p {
     margin: 0;
     padding: 0;
 }
-
+h2 {
+    font-family: 'ProximaNovaBlack';
+    text-align: center;
+    font-size: 26px;
+}
 body {
     font-family: 'ProximaNovaRegular';
     margin: 0;
@@ -193,4 +197,67 @@ header {
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+#price h2 {
+    text-align: right;
+}
+.wrap-price {
+    margin-top: 60px;
+}
+.form-price__input{
+    display: flex;
+    justify-content: space-between;
+}
+.form-price__input input:nth-child(1) {
+    margin-left: 0px;
+}
+.form-price__input input {
+    width: 370px;
+    margin-left: 30px;
+    height: 70px;
+    border: none;
+    background-color: #f2f2f2;
+    outline: none;
+    padding-left: 30px;
+    font-family: 'ProximaNovaRegular';
+    text-transform: uppercase;
+}
+.form-price__submit {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.form-price__submit p {
+    text-align: right;
+    padding-top: 27px;
+    display: inline-block;
+    padding-right: 30px;
+}
+.form-price__submit button {
+    width: 360px;
+    margin-left: 30px;
+    background-color: #1866af;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    height: 80px;
+    font-family: 'ProximaNovaBold';
+    cursor: pointer;
+    transition: all .2s;
+}
+.form-price__submit button:hover {
+    background: none;
+    border: 2px solid #1866af;
+    color: #000;
+}
+.form-submit__description {
+    width: 360px;
+    text-align: right;
+}
+.form-submit__description::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(../img/main-price/clock-icon.png) no-repeat center center;
 }
