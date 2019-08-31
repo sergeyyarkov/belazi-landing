@@ -86,6 +86,7 @@ input {
 .title-description {
     text-align: center;
     margin-top: 35px;
+    font-size: 18px;
 }
 
 /* Section Header */
@@ -518,7 +519,66 @@ header {
     color: #fff;
     margin-top: 35px;
 }
-
+/* Section Questions */
+#questions {
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #0b3554;
+}
+.wrap-questions__image img {
+    width: 100%;
+}
+.wrap-questions {
+    margin-top: 100px;
+}
+.image-title {
+    display: inline-block;
+    background-color: rgb(11, 53, 84);
+    opacity: 0.8;
+    position: absolute;
+    bottom: 25px;
+    padding: 12px 30px 12px 19px;
+}
+.wrap-questions__item a {
+    margin-left: 30px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    transition: all .2s;
+}
+.wrap-questions__item a:hover {
+    color: #579eff;
+    border: none;
+}
+.wrap-questions__item {
+    font-family: 'ProximaNovaBold';
+    font-size: 18px;
+    margin-top: 55px;
+}
+.wrap-questions__item:nth-child(1) {
+    margin-top: 0px;
+}
+.more-questions {
+    margin-top: 55px;
+}
+.more-questions p a {
+    color: #fff;
+    transition: all .2s;
+    padding-left: 45px;
+    text-decoration: underline;
+}
+.more-questions p a:hover {
+    color: #579eff;
+    text-decoration: none;
+}
+.more-questions p::before {
+    content: '';
+    display: inline-block;
+    background: url(../img/main-questions/reload-icon.png) no-repeat center center;
+    width: 18px;
+    height: 20px;
+    position: absolute;
+}
 
 /* Section Working */
 #working {
@@ -681,20 +741,6 @@ header {
     background-repeat: no-repeat;
     background-position: center right 30px;
 }
-/* #info,
-#price,
-#advantages,
-#detail,
-#guarantees,
-#discount,
-#working,
-#stock,
-#team,
-#advice,
-#come,
-#map {
-    display: none;
-} */
 /* Section Come */
 #come {
     padding-top: 100px;
@@ -735,3 +781,18 @@ footer {
     font-family: 'ProximaNovaBlack';
     font-size: 21px;
 }
+/* #info,
+#price,
+#advantages,
+#detail,
+#guarantees,
+#discount,
+#working,
+#stock,
+#team,
+#advice,
+#come,
+#map,
+footer {
+    display: none;
+} */
