@@ -78,6 +78,7 @@ input {
     font-family: 'ProximaNovaRegular';
     text-transform: uppercase;
 }
+
 /* Fade Animation */
 .fade {
     -webkit-animation-name: fade;
@@ -107,6 +108,7 @@ input {
         opacity: 1;
     }
 }
+
 .container {
     max-width: 1170px;
 }
@@ -547,6 +549,7 @@ header {
     color: #fff;
     margin-top: 35px;
 }
+
 /* Section Questions */
 #questions {
     color: #fff;
@@ -554,12 +557,15 @@ header {
     padding-bottom: 100px;
     background-color: #0b3554;
 }
+
 .wrap-questions__image img {
     width: 100%;
 }
+
 .wrap-questions {
     margin-top: 100px;
 }
+
 .image-title {
     display: inline-block;
     background-color: rgb(11, 53, 84);
@@ -568,37 +574,46 @@ header {
     bottom: 25px;
     padding: 12px 30px 12px 19px;
 }
+
 .wrap-questions__item a {
     margin-left: 30px;
     color: #fff;
     border-bottom: 1px solid #fff;
     transition: all .2s;
+    cursor: pointer;
 }
+
 .wrap-questions__item a:hover {
     color: #579eff;
     border: none;
 }
+
 .wrap-questions__item {
     font-family: 'ProximaNovaBold';
     font-size: 18px;
     margin-top: 55px;
 }
+
 .wrap-questions__item:nth-child(1) {
     margin-top: 0px;
 }
+
 .more-questions {
     margin-top: 55px;
 }
+
 .more-questions p a {
     color: #fff;
     transition: all .2s;
     padding-left: 45px;
     text-decoration: underline;
 }
+
 .more-questions p a:hover {
     color: #579eff;
     text-decoration: none;
 }
+
 .more-questions p::before {
     content: '';
     display: inline-block;
@@ -607,6 +622,7 @@ header {
     height: 20px;
     position: absolute;
 }
+
 .question-content {
     background-color: #fff;
     color: #000;
@@ -619,18 +635,22 @@ header {
     margin-left: 30px;
     margin-top: 35px;
     display: none;
+    z-index: 999;
 }
+
 .question-content::before {
     border: 20px solid transparent;
     border-bottom: 20px solid #fff;
     content: '';
     position: absolute;
-    top: -40px; 
+    top: -40px;
 }
+
 .tooltip-close {
     float: right;
     cursor: pointer;
 }
+
 /* Section Working */
 #working {
     padding-top: 100px;
@@ -792,6 +812,7 @@ header {
     background-repeat: no-repeat;
     background-position: center right 30px;
 }
+
 /* Section Come */
 #come {
     padding-top: 100px;
@@ -799,18 +820,22 @@ header {
     background: url(../img/main-come/main-come__background.jpg) no-repeat center center;
     background-size: cover;
 }
+
 #come .title-description {
     margin-top: 100px;
 }
+
 #come .title-description p {
     color: #000;
 }
+
 #come .title-description p span {
     font-family: 'ProximaNovaBlack';
     font-size: 28px;
     display: block;
     margin-top: 20px;
 }
+
 /* Footer */
 footer {
     min-height: 120px;
@@ -819,15 +844,18 @@ footer {
     padding-bottom: 40px;
     color: #fff;
 }
+
 .footer-wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .footer-wrap__info p {
     text-align: right;
     font-size: 16px;
 }
+
 .footer-wrap__info p span {
     font-family: 'ProximaNovaBlack';
     font-size: 21px;

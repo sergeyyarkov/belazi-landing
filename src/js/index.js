@@ -39,5 +39,5 @@ links.forEach((link) => {
         });
         contentTollTip.classList.add('fade');
         contentTollTip.style.display = 'block';
-    }); 
+    });
 });

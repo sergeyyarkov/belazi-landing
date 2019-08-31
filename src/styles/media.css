@@ -15,14 +15,21 @@
     #working .working-item__description p br {
         display: none;
     }
+
     #questions .wrap-questions .col-lg-6:nth-child(2) {
         display: none;
     }
+
     #questions .wrap-questions__item {
         text-align: center;
     }
+
     #questions .more-questions {
         text-align: center;
+    }
+
+    #questions .question-content {
+        margin-left: 130px;
     }
 }
 
@@ -64,6 +71,7 @@
     #guarantees .guarantees-card__desctiption {
         margin-top: 20px;
     }
+
     #detail {
         padding-bottom: 100px;
     }
@@ -117,24 +125,35 @@
         padding-right: 0;
         padding-left: 0;
     }
+
     footer .footer-wrap {
         flex-direction: column;
     }
-    footer .footer-wrap__copy, footer .footer-wrap__info {
+
+    footer .footer-wrap__copy,
+    footer .footer-wrap__info {
         margin-top: 15px;
     }
+
     footer .footer-wrap__info p {
         line-height: 27px;
     }
+
     #advice {
         padding-bottom: 100px;
     }
+
     #questions .wrap-questions__item {
         text-align: left;
     }
+
     #questions .wrap-questions__item a {
         margin-left: 10px;
         font-size: 16px;
+    }
+
+    #questions .question-content {
+        margin-left: 0px;
     }
 }
 
@@ -147,5 +166,11 @@
 @media (max-width: 360px) {
     #info .info-card__title h1 {
         font-size: 29px;
+    }
+}
+
+@media (max-width: 355px) {
+    #questions .wrap-questions__item .question-content {
+        width: 295px;
     }
 }
