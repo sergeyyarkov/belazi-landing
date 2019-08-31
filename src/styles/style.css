@@ -519,15 +519,6 @@ header {
     margin-top: 35px;
 }
 
-/* #info,
-#price,
-#advantages,
-#detail,
-#guarantees,
-#discount,
-#working {
-    display: none;
-} */
 
 /* Section Working */
 #working {
@@ -542,40 +533,101 @@ header {
 #working .title-description {
     margin-top: 25px;
 }
+
 .wrap-working__item {
     text-align: center;
 }
+
 .wrap-working {
     margin-top: 100px;
 }
+
 .working-item__description {
     margin-top: 50px;
 }
+
 .wrap-working__item {
     margin-top: 30px;
 }
+
 /* Section Stock */
 #stock {
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: #0b3554;
 }
-#stock h2, #stock .title-description p {
+
+#stock h2,
+#stock .title-description p {
     color: #fff;
 }
+
 #stock .title-description {
     margin-top: 25px;
 }
+
 .stock-wrap {
     margin-top: 100px;
 }
+
 .owl-prev {
     position: absolute;
     top: 45%;
     left: 20px;
 }
+
 .owl-next {
     position: absolute;
     top: 45%;
     right: 20px;
 }
+
+/* Section Team */
+#team {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.wrap-team__item {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.team-item__img {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap-team {
+    margin-top: 100px;
+}
+
+.team-img {
+    height: 170px;
+    width: 170px;
+    border: 5px solid #ffbc3b;
+    border-radius: 50%;
+}
+
+.team-img img,
+.team-img {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+.team-item__description {
+    margin-top: 38px;
+}
+/* #info,
+#price,
+#advantages,
+#detail,
+#guarantees,
+#discount,
+#working,
+#stock,
+#team {
+    display: none;
+} */
+/* Section Consultation */
