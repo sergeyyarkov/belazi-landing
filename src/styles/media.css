@@ -55,6 +55,9 @@
     #guarantees .guarantees-card__desctiption {
         margin-top: 20px;
     }
+    #detail {
+        padding-bottom: 100px;
+    }
 }
 
 @media (max-width: 630px) {
@@ -104,6 +107,18 @@
     .no-gutter>[class*='col-'] {
         padding-right: 0;
         padding-left: 0;
+    }
+    footer .footer-wrap {
+        flex-direction: column;
+    }
+    footer .footer-wrap__copy, footer .footer-wrap__info {
+        margin-top: 15px;
+    }
+    footer .footer-wrap__info p {
+        line-height: 27px;
+    }
+    #advice {
+        padding-bottom: 100px;
     }
 }
 
