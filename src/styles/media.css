@@ -9,7 +9,9 @@
     #price h2 {
         text-align: center;
     }
-    #guarantees .guarantees-card__desctiption p br {
+
+    #guarantees .guarantees-card__desctiption p br,
+    #discount .discount-item__description p br {
         display: none;
     }
 }
@@ -43,14 +45,17 @@
         text-align: center;
     }
 }
-@media (max-width: 768px){
+
+@media (max-width: 768px) {
     #guarantees .wrap-guarantees__card {
         margin-top: 25px;
     }
+
     #guarantees .guarantees-card__desctiption {
         margin-top: 20px;
     }
 }
+
 @media (max-width: 630px) {
     #price .form-price__input {
         flex-direction: column;
