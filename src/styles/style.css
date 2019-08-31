@@ -519,14 +519,14 @@ header {
     margin-top: 35px;
 }
 
-#info,
+/* #info,
 #price,
 #advantages,
 #detail,
 #guarantees,
 #discount {
     display: none;
-}
+} */
 
 /* Section Working */
 #working {
@@ -540,4 +540,16 @@ header {
 
 #working .title-description {
     margin-top: 25px;
+}
+.wrap-working__item {
+    text-align: center;
+}
+.wrap-working {
+    margin-top: 100px;
+}
+.working-item__description {
+    margin-top: 50px;
+}
+.wrap-working__item {
+    margin-top: 30px;
 }

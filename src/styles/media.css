@@ -11,7 +11,8 @@
     }
 
     #guarantees .guarantees-card__desctiption p br,
-    #discount .discount-item__description p br {
+    #discount .discount-item__description p br,
+    #working .working-item__description p br {
         display: none;
     }
 }
