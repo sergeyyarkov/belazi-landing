@@ -28,6 +28,9 @@ $('.owl-carousel').owlCarousel({
 const links = document.querySelectorAll('.wrap-questions__item a');
 links.forEach((link) => {
     link.addEventListener('click', () => {
+        document.querySelectorAll('.question-content').forEach((link) => {
+            link.style.display = 'none';
+        });
         const contentTollTip = link.parentNode.parentNode.querySelector('.question-content');
         const contentTollTipClose = link.parentNode.parentNode.querySelector('.tooltip-close');
         contentTollTipClose.addEventListener('click', () => {
@@ -36,5 +39,5 @@ links.forEach((link) => {
         });
         contentTollTip.classList.add('fade');
         contentTollTip.style.display = 'block';
-    });
+    }); 
 });
