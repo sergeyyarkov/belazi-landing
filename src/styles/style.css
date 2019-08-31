@@ -7,15 +7,16 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'ProximaNovaBold';
     src: url('../fonts/ProximaNova-Bold.eot');
     src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/ProximaNova-Bold.woff') format('woff'),
-    url('../fonts/ProximaNova-Bold.ttf') format('truetype');
+        url('../fonts/ProximaNova-Bold.woff') format('woff'),
+        url('../fonts/ProximaNova-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-    }
+}
 
 @font-face {
     font-family: 'ProximaNovaBlack';
@@ -26,15 +27,16 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'ProximaNovaExtraBold';
     src: url('../fonts/ProximaNova-Extrabld.eot');
     src: url('../fonts/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/ProximaNova-Extrabld.woff') format('woff'),
-    url('../fonts/ProximaNova-Extrabld.ttf') format('truetype');
+        url('../fonts/ProximaNova-Extrabld.woff') format('woff'),
+        url('../fonts/ProximaNova-Extrabld.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-    }
+}
 
 h1,
 h2,
@@ -46,11 +48,13 @@ p {
     margin: 0;
     padding: 0;
 }
+
 h2 {
     font-family: 'ProximaNovaBlack';
     text-align: center;
-    font-size: 26px;
+    font-size: 29px;
 }
+
 body {
     font-family: 'ProximaNovaRegular';
     margin: 0;
@@ -63,6 +67,12 @@ button {
 .container {
     max-width: 1170px;
 }
+
+.title-desctiprion {
+    text-align: center;
+    margin-top: 35px;
+}
+
 /* Section Header */
 header {
     padding-top: 25px;
@@ -70,30 +80,39 @@ header {
     background-color: #191919;
     color: #fff;
 }
+
 .header-wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header-wrap__logo, .header-wrap__opening, .header-wrap__info {
+
+.header-wrap__logo,
+.header-wrap__opening,
+.header-wrap__info {
     width: 370px;
 }
+
 .header-wrap__opening {
     width: 150px;
 }
+
 .header-wrap__opening p {
     font-size: 13px;
     line-height: 23px;
     font-family: 'ProximaNovaBold';
     text-align: center;
 }
+
 .header-wrap__opening p span {
     font-family: 'ProximaNovaRegular';
     font-size: 12px;
 }
+
 .header-wrap__info {
     text-align: right;
 }
+
 .header-wrap__info button {
     width: 170px;
     cursor: pointer;
@@ -107,10 +126,12 @@ header {
     vertical-align: top;
     height: 50px;
 }
+
 .header-wrap__info button:hover {
     background: none;
     border: 2px solid #1669b3;
 }
+
 .header-wrap__info p {
     display: inline-block;
     text-align: right;
@@ -119,12 +140,14 @@ header {
     position: relative;
     right: 28px;
 }
+
 /* Section Maon-info */
 #info {
     min-height: 860px;
     background: url(../img/main-info/main-info__background.jpg) no-repeat center center;
     background-size: cover;
 }
+
 .info-wrap__card {
     background-color: #f7b516;
     color: #000000;
@@ -132,28 +155,34 @@ header {
     padding-top: 100px;
     padding-left: 100px;
 }
+
 .info-card__title h1 {
     text-transform: uppercase;
     font-family: 'ProximaNovaBlack';
     font-size: 38px;
 }
+
 .info-card__description p {
     font-family: 'ProximaNovaExtraBold';
     margin-top: 47px;
     font-size: 24px;
 }
+
 .info-card__advantages {
     margin-top: 100px;
     font-family: 'ProximaNovaRegular';
 }
+
 .info-advantages__item {
     margin-top: 45px;
 }
+
 .info-advantages__item p {
     padding-left: 15px;
     display: inline-block;
     font-size: 18px;
 }
+
 .info-advantages__item:nth-child(1)::before {
     content: '';
     display: inline-block;
@@ -163,6 +192,7 @@ header {
     bottom: 4px;
     background: url(../img/main-info/icon-1.png) no-repeat center center;
 }
+
 .info-advantages__item:nth-child(2)::before {
     content: '';
     display: inline-block;
@@ -172,6 +202,7 @@ header {
     bottom: 4px;
     background: url(../img/main-info/icon-2.png) no-repeat center center;
 }
+
 .info-advantages__item:nth-child(3)::before {
     content: '';
     display: inline-block;
@@ -181,6 +212,7 @@ header {
     bottom: 4px;
     background: url(../img/main-info/icon-3.png) no-repeat center center;
 }
+
 .info-advantages__item:nth-child(4)::before {
     content: '';
     display: inline-block;
@@ -190,6 +222,7 @@ header {
     bottom: 4px;
     background: url(../img/main-info/icon-4.png) no-repeat center center;
 }
+
 /* Section Main-price */
 #price {
     min-height: 500px;
@@ -198,19 +231,24 @@ header {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 #price h2 {
     text-align: right;
 }
+
 .wrap-price {
     margin-top: 60px;
 }
-.form-price__input{
+
+.form-price__input {
     display: flex;
     justify-content: space-between;
 }
+
 .form-price__input input:nth-child(1) {
     margin-left: 0px;
 }
+
 .form-price__input input {
     width: 370px;
     margin-left: 30px;
@@ -222,17 +260,20 @@ header {
     font-family: 'ProximaNovaRegular';
     text-transform: uppercase;
 }
+
 .form-price__submit {
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
 }
+
 .form-price__submit p {
     text-align: right;
     padding-top: 27px;
     display: inline-block;
     padding-right: 30px;
 }
+
 .form-price__submit button {
     width: 360px;
     margin-left: 30px;
@@ -245,19 +286,51 @@ header {
     cursor: pointer;
     transition: all .2s;
 }
+
 .form-price__submit button:hover {
     background: none;
     border: 2px solid #1866af;
     color: #000;
 }
+
 .form-submit__description {
     width: 360px;
     text-align: right;
 }
+
 .form-submit__description::after {
     content: '';
     display: inline-block;
     width: 30px;
     height: 30px;
     background: url(../img/main-price/clock-icon.png) no-repeat center center;
+}
+
+/* Section Advantages */
+#advantages {
+    background-color: #08243e;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#advantages h2,
+#advantages p {
+    color: #fff;
+}
+
+.wrap-advantages {
+    margin-top: 100px;
+}
+
+.wrap-advantages__card {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.advantages-card__description {
+    margin-top: 50px;
+}
+
+.advantages-card__img {
+    height: 100px;
 }
