@@ -620,18 +620,6 @@ header {
     margin-top: 38px;
 }
 
-/* #info,
-#price,
-#advantages,
-#detail,
-#guarantees,
-#discount,
-#working,
-#stock,
-#team {
-    display: none;
-} */
-
 /* Section Advice */
 #advice {
     padding-top: 100px;
@@ -692,4 +680,36 @@ header {
     background-image: url(../img/main-price/phone-icon.png);
     background-repeat: no-repeat;
     background-position: center right 30px;
+}
+/* #info,
+#price,
+#advantages,
+#detail,
+#guarantees,
+#discount,
+#working,
+#stock,
+#team,
+#advice,
+#come {
+    display: none;
+} */
+/* Section Come */
+#come {
+    padding-top: 100px;
+    min-height: 400px;
+    background: url(../img/main-come/main-come__background.jpg) no-repeat center center;
+    background-size: cover;
+}
+#come .title-description {
+    margin-top: 100px;
+}
+#come .title-description p {
+    color: #000;
+}
+#come .title-description p span {
+    font-family: 'ProximaNovaBlack';
+    font-size: 28px;
+    display: block;
+    margin-top: 20px;
 }
