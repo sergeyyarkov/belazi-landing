@@ -524,7 +524,8 @@ header {
 #advantages,
 #detail,
 #guarantees,
-#discount {
+#discount,
+#working {
     display: none;
 } */
 
@@ -552,4 +553,29 @@ header {
 }
 .wrap-working__item {
     margin-top: 30px;
+}
+/* Section Stock */
+#stock {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #0b3554;
+}
+#stock h2, #stock .title-description p {
+    color: #fff;
+}
+#stock .title-description {
+    margin-top: 25px;
+}
+.stock-wrap {
+    margin-top: 100px;
+}
+.owl-prev {
+    position: absolute;
+    top: 45%;
+    left: 20px;
+}
+.owl-next {
+    position: absolute;
+    top: 45%;
+    right: 20px;
 }
